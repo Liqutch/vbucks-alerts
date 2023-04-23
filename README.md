@@ -20,7 +20,7 @@ pip install logging
 ```json
 {
   "last_check": "2023-04-23T18:00:00.000Z",
-  "checkrate": 10,
+  "checkrate": 30,
   "language": "en",
   "webhook_url": "WEBHOOK_URL",
   "account_id": "ACCOUNT_ID",
