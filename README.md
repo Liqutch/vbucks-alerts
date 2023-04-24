@@ -10,6 +10,7 @@ pip install coloredlogs
 pip install requests
 pip install logging
 ```
+- Enter your account informations in the `settings.json` file.
 - Run `start.bat` to launch the program.
 # Configuration
 - To share missions in a Discord server of your choice, create a webhook via integrations in the selected channel and copy the webhook URL and paste it into "webhook_url" key in the settings.json file.
