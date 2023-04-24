@@ -134,7 +134,7 @@ try:
                     missionName = missionNames(missionGenerator)
                     theaters = requests.get(base_url + all_theaters)
                     power = theaters.json()["jsonOutput"][0]["Rows"][theater]["ThreatDisplayName"]["sourceString"]
-                    area = localization["theaters"][i - 1]
+                    area = localization["theaters"][i - 1][lang]
                     fields.append({
                       "name": f"<:vbucks:1089610011258400960> {quantity} - {missionName} [{power}]",
                       "value": f"{area} - {mission}"
