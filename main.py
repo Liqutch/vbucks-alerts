@@ -106,7 +106,7 @@ try:
                   mission = localization["zoneNames"][key][lang]
                 except:
                   mission = localization["zoneNames"][key]["en"]
-                  log.error("Language not found while retrieving task details. Automatically selecting => English.")
+                  log.error("Language not found while retrieving mission details. Automatically selecting => English.")
                 missions = data.get("missions", [])[i]
                 for available_mission in missions.get("availableMissions", []):
                   if available_mission.get("tileIndex") == tile_index:
