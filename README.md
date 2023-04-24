@@ -2,7 +2,7 @@
 - Bot that shares daily V-Bucks mission alerts in Save the World via a Discord webhook with support for many languages.
 - You can customize the bot with your language and share daily v-bucks missions to your Discord server!
 
-# How to use:
+# How to use
 - Make sure you have [Python](https://www.python.org/downloads/) 3.6 or higher installed and added to your PATH.
 - Run `packages.bat` or type the following command into the command prompt to install the necessary modules.
 ```
