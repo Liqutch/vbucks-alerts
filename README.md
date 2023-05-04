@@ -13,7 +13,7 @@ pip install logging
 - Enter your account informations in the `settings.json` file.
 - Run `start.bat` to launch the program.
 # Configuration
-- To share missions in a Discord server of your choice, create a webhook via integrations in the selected channel and copy the webhook URL and paste it into "webhook_url" key in the settings.json file.
+- To share missions in a Discord server of your choice, create a webhook via integrations in the selected channel and copy the webhook URL then paste it into "webhook_url" key in the settings.json file.
 - The settings.json file will prompt you to enter information related to your account such as "Account ID", "Device ID", and "Secret". These details are necessary for accessing Save the World missions via the Epic Games API. You can check out the [DeviceAuthGenerator](https://github.com/xMistt/DeviceAuthGenerator) project made by [xMistt](https://github.com/xMistt) to obtain these details.
 - You can customize values such as "language" and "title", the supported languages are: `ar`, `de`, `en`, `es`, `es-419`, `fr`, `it`, `ja`, `ko`, `pl`, `pt-BR`, `ru`, `tr`
 - Note: The "checkrate" value sets the check of missions in seconds. Default to 30, recommended is >= 30.
